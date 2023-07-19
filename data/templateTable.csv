@@ -1,0 +1,10 @@
+Template Name,Plant Name,Tag Name,Equipment Name,Use Case,Active Status,Time Delay,Hi Value,HiHi Value,Alert Option
+trendviolation_fan,CP,CP-U79-R4-H3R19_C8_6,Fan Inlet Temp,Trend Violation,True,10,450.0,690.0,Email
+trendviolation_fan_bearing,CP,CP-U79-R4-H3R19_C8_6,Fan Bearing DE Vibration (X-Axis),Trend Violation,True,5,500.0,750.0,Email
+fan_fanefficiency,CP,CP-U79-R4-H3R19_C8_6,Fan Inlet Temp,Fan Efficiency,True,10,0.8,0.6,Email
+fan_falseAir,CP,CP-U79-R4-H3R19_C8_6,Fan Inlet Temp,False Air,True,10,0.8,0.7,Email
+fan_MTBS,CP,CP-U79-R4-H3R19_C8_6,Fan Inlet Temp,MTBS,True,10,0.0,0.0,Email
+x_demo,CP,CP-U79-R4-H3R19_C8_6,Fan Bearing DE Vibration (X-Axis),False Air,True,0,0.0,0.0,Email
+fan_eff_demo,CP,CP-U79-R4-H3R19_C8_6,Fan Bearing DE Vibration (X-Axis),Fan Efficiency,True,0,0.8,0.69,Email
+new_false_air,CP,CP-U79-R4-H3R19_C8_6,Kiln Running Status,False Air,True,0,0.0,0.0,Email
+assetdetail_1,CP,CP-U79-R4-H3R19_C8_6,Calciner String Fan KW,Asset Details,True,-99,-99.0,-99.0,Email

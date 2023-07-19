@@ -1,0 +1,13 @@
+,Parameters,Id
+0,Kiln Running Status,W-GCW2-KL2-SV-PV-W2W03
+1,Kiln Feed Rate,W-GCW2-KL2-F-PV-W2A04_F1
+2,Calciner Feed Rate,W-GCW2-KL2-F-PV-W2B04_F1
+3,Kiln TPH,W-GCW2-KL2-F-PV-KILN2_TPH_PI
+4,Kiln String Oxygen Inlet,W-GCW2-KL2-O-PV-W2W01_A1
+5,Kiln String Oxygen Outlet,W-GCW2-KL2-O-PV-W2A50_A1
+6,Kiln String Fan RPM,W-GCW2-KL2-R-PV-J2P65_S1
+7,Kiln String Fan KW,W-GCW2-KL2-J-PV-J2P65_J1
+8,Calciner String Oxygen Inlet,W-GCW2-KL2-O-PV-W2B56_A1
+9,Calciner String Oxygen Outlet,W-GCW2-KL2-O-PV-W2B50_A1
+10,Calciner String Fan RPM,W-GCW2-KL2-R-PV-J2P63_S1
+11,Calciner String Fan KW,W-GCW2-KL2-J-PV-J2P63_J1
