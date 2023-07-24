@@ -132,7 +132,7 @@ def updated_g():
             st.pyplot(plt)
 
 
-
+coun=0
 while True:
     x_random=random_data(X_val) 
     error,thresh,prediction=get_prediction_mre(model,x_random,threshold)
@@ -148,9 +148,13 @@ while True:
     # Concatenate the new row DataFrame with the original DataFrame
     df = pd.concat([df, new_row_df], ignore_index=True)
     df.to_csv("./data/anamoly_data.csv", index=False)
+    
     if selected=="Data":
+        if coun==0:
+            coun+=1
+            df=pd.read_csv("./data/Features_data.csv")
+            st.dataframe(df)
         
-        st.dataframe(df)
         st.empty()
     elif selected=="Graph":
         updated_g()
