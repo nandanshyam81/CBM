@@ -6,4 +6,3 @@ streamlit
 streamlit_option_menu
 streamlit_lottie
 email
-matplotlib.pyplot
