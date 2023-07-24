@@ -1,4 +1,4 @@
-setuptool
+setuptools
 numpy
 pandas
 plotly
