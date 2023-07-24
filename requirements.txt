@@ -5,4 +5,3 @@ plotly
 streamlit
 streamlit_option_menu
 streamlit_lottie
-email==4.0.2
