@@ -8,3 +8,4 @@ x_demo,CP,CP-U79-R4-H3R19_C8_6,Fan Bearing DE Vibration (X-Axis),False Air,True,
 fan_eff_demo,CP,CP-U79-R4-H3R19_C8_6,Fan Bearing DE Vibration (X-Axis),Fan Efficiency,True,0,0.8,0.69,Email
 new_false_air,CP,CP-U79-R4-H3R19_C8_6,Kiln Running Status,False Air,True,0,0.0,0.0,Email
 assetdetail_1,CP,CP-U79-R4-H3R19_C8_6,Calciner String Fan KW,Asset Details,True,-99,-99.0,-99.0,Email
+asset2detail,RN,CP-U79-R4-H3R19_C8_6,Kiln String Fan KW,Asset Details,True,-99,-99.0,-99.0,Email

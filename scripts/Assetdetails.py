@@ -55,7 +55,7 @@ class Assetdetails:
         x=Assetdetails.current_value(df).mean()
         y=Assetdetails.current_value(df).max()
         z=Assetdetails.current_value(df).min()
-        k=df[df["Timestamp"]==Assetdetails.last_time(df)]["Value"]
+        k=df[df["Timestamp"]==Assetdetails.last_time(df)]["Value"].values[0]
         return x,y,z,k
     def output_table(df):
         current_data=Assetdetails.current_info(df)

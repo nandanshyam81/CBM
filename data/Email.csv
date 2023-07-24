@@ -9,3 +9,4 @@ x_edemo,False Air,False air alert,True,Fan Bearing DE Vibration (X-Axis),nandans
 fan_edemo,Fan Efficiency,Fan efficiency Alert,True,Fan Bearing DE Vibration (X-Axis),nandanshyam81@gmail.com,fan_eff_demo
 falseair_email,False Air,False air alert,True,Kiln Running Status,nandanshyam81@gmail.com,new_false_air
 assetdetail_new,Asset Details,Asset detail summary info,True,Calciner String Fan KW,nandanshyam81@gmail.com,assetdetail_1
+asset2email,Asset Details,Asset detail summary info,True,Kiln String Fan KW,nandanshyam81@gmail.com,asset2detail

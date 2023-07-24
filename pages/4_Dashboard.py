@@ -514,15 +514,22 @@ elif selected =="Data":
         
     elif Usecase=='Fan Efficiency':
         df = pd.read_csv('./data/FanEff Demo.csv')
-        st.dataframe(df,width=1500)
+        df1 = df[df['Equipment Name']==Equipment_name]
+        st.dataframe(df1,width=1500)
     elif Usecase=='False Air':
-        df = pd.read_csv('./data/FalseAir output.csv')
-        st.dataframe(df,width=1500)
+        df = pd.read_csv('./data/False_Air_iot.csv')
+        df1=pd.read_csv(".\\data\\False_Air_master.csv")
+        merged_df = pd.merge(df, df1, on='Id', how='left')
+        merged_df["Equipment Name"]=merged_df["Parameters"]
+        df1 = df[df['Equipment Name']==Equipment_name]
+        st.dataframe(df1,width=1500)
     elif Usecase=="Asset Details":
         df=pd.read_csv(".\\data\\False_Air_iot.csv")
         df1=pd.read_csv(".\\data\\False_Air_master.csv")
         merged_df = pd.merge(df, df1, on='Id', how='left')
-        st.dataframe(merged_df,width=1500)
+        merged_df["Equipment Name"]=merged_df["Parameters"]
+        data_present = merged_df[merged_df['Equipment Name']==Equipment_name]
+        st.dataframe(data_present,width=1500)
     elif Usecase=="MTBS":
         df=pd.read_csv(".\\data\\False_Air_iot.csv")
         df1=pd.read_csv(".\\data\\False_Air_master.csv")
